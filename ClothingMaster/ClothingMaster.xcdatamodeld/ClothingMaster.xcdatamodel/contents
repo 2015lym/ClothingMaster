@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Like" representedClassName="Like" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Weather" representedClassName="Weather" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lasttime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatheradv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherdata" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Weather" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Like" positionX="-63" positionY="9" width="128" height="60"/>
+    </elements>
+</model>
